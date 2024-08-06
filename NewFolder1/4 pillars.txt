@@ -1,0 +1,44 @@
+4 pillars of OOP
+
+
+
+  1) inheritance
+  2) incapsulation
+  3) polymorphism
+      a) runtime  // late binding // loose cupling
+             method overriding (method name same and 
+                                     parameters also same)
+                  rule
+                       1) inheritance must
+                       2) one method in parent class 
+                          and 2nd in child class
+
+                       
+      b) compile Time /  early binding  // tight cupling
+
+             i)method overloading
+                         (method name same & different parameters)
+            ii)constructor overloading
+  4) abstraction
+
+
+
+    student
+    {
+       roll
+       name
+       per;
+       //constructors()
+       //calcualte_Result()
+    }
+
+
+---------------------------------------------------------------------------------
+  
+
+1) polymorphism
+
+       compile Time polymorphism
+     
+           mulple methods with same name & diff parameters
+                 (inside same class)

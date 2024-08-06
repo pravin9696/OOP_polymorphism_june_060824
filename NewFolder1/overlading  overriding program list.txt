@@ -1,0 +1,118 @@
+November & December Batch Today's Practical Task...
+
+Q.1 Create a class named 'Rectangle' with two data members-length and breadth and a function to calculate the area which is 'length*breadth'. 
+The class has three constructors which are:
+
+A: having no parameter - values of both length and breadth are assigned zero.
+
+B: having two numbers as parameters - the two numbers are assigned as length and breadth respectively.
+
+C: having one number as parameter - both length and breadth are assigned that number.
+
+Now, create objects of the 'Rectangle' class having none, one and two parameters and print their areas.
+
+Q.2 WAP to Create a class name as Power with a parameterised constructor and one function int getPower( ).
+
+Power(int , int)
+{
+// this constructor can accept the base and index.
+}
+int getPower()
+{
+//this function can return power of numbers.
+}
+
+Q.3 WAP to Create a class name as Majority with a parameterised constructor and one function int getMajority( ).
+
+Majority(int [ ])
+{
+// this constructor can accept the array.
+}
+
+int getMajority()
+{
+//this function can use if it's yes then return 1 otherwise return 0.
+}
+
+Q.4 WAP to Create a class name as StudentPer with a parameterised constructor and two function void CalPer( ) and void checkGrades( ).
+
+StudentPer(int [ ])
+{
+// this constructor can accept the array.
+}
+
+void CalPer( ) 
+{
+//this function can use calculate the percentage in array.
+}
+
+void checkGrades()
+{
+//this function can use check the grade.
+		percentage >= 90% : Grade A
+ 		percentage >= 80% : Grade B
+		percentage >= 70% : Grade C
+		percentage >= 60% : Grade D
+		percentage >= 50% : Grade E
+		percentage >= 40% : Grade F
+		percentage < 40% : Student is Fail.
+}
+
+Q.5 WAP to Create a class name as Employee with a parameterised constructor and two function void CalSal( ) and void showDetails( ).
+
+Employee(int id,char name[ ],char contact[ ],int presentday,int perdaysal)
+{
+// this constructor can store the all data in instance variable of class.
+}
+
+void CalSal( ) 
+{
+//here need to write the logic for calculate the salary of employee as per his present days.
+}
+
+void showDetails()
+{
+//here show the all details of employee.
+}
+
+Q6. Write a cpp program to create class name as Area using parameterised constructor overloading name as :
+
+	void Area(int)
+	{
+		//  calculate area of circle.
+	}
+	
+	void Area(int , int)
+	{
+		//  calculate area of reactangle.
+	}
+	
+	void Area(int , float)
+	{
+		//  calculate area of triangle.
+	}	
+	
+Q7. Write a cpp program to create class name as Reverse using Constructor overloading name as :
+
+	void Reverse(int [ ])
+	{
+		//  perform integer reverse array logic.
+	}
+	
+	void Reverse(char [ ])
+	{
+		//  perform string reverse logic.
+	}
+	
+Q8. Write a cpp program to create class name as Frequency using Constructor overloading name as :
+
+	void Frequency(int [ ])
+	{
+		//  count even and odd number in array.
+	}
+	
+	
+	void Frequency(char [ ])
+	{
+		//  count alphabet , digit and special symbol charcter in string.
+	}
